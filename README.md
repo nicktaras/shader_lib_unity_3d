@@ -8,7 +8,7 @@ https://docs.unity3d.com/Manual/ShadersOverview.html
 
 Base construct of a shader, regardless of its type.
 
-`
+````
 Shader "MyShader" {
     Properties {
         _MyTexture ("My Texture", 2D) = "white" { }
@@ -25,4 +25,4 @@ Shader "MyShader" {
         // that can run on older graphics cards here
     }
 }
-`
+````
